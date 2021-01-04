@@ -32,7 +32,7 @@ function result() {
     newStory = newStory.replace('梅子',name);
   }
 
-  if(document.getElementById("ja").checked) {
+  if(document.getElementById("uk").checked) {
     const weight = '石' + Math.round(300*0.0714286) + '個分';
     const temperature =  '摂氏' + Math.round((94-32) * 5 / 9) + '度';
     newStory = newStory.replace('華氏94度',temperature);
